@@ -23,6 +23,12 @@ div {
   animation-timing-function: ease-in-out;
 }
 
+.div1:hover {
+  border-radius: 50%;
+  transition: ease-in-out 1s;
+  cursor: pointer;
+}
+
 .div2 {
   background-color: cadetblue;
   border: 3px solid rgba(23, 236, 4, 0.51);
